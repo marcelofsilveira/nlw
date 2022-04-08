@@ -39,7 +39,29 @@ h1 {
 }
 
 .button {
-  }
+  background-color: var(--base-color);
+  color: var(--text-color-light);
+  height: 3.5rem;
+  display: inline-flex;
+  align-items: center;
+  padding: 0 2rem;
+  border-radius: 0.25rem;
+  font: 500 1rem 'DM Sans', sans-serif;
+  transition: background 0.3s;
+ }
+
+ .button:hover {
+   background: var(--base-color-alt);
+ }
+
+ .divider-1 {
+  height: 1px; 
+  background: linear-gradient(
+    270deg, 
+    #69b99d 0%,
+    rgba(204, 244, 230, 0.34)100%
+    );
+ }
 /*========= ?  =====================*/
 
 
@@ -105,7 +127,21 @@ nav {
   right: 2.93rem;
 }
 
+#home .image img,
+#home .image::before {
+  border-radius: 0.25rem;
+}
+
 #home .text {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  text-align: center;
+}
+
+#home .text h1 {
+  margin-bottom: 1rem;
+}
+
+#home .text p {
+  margin-bottom: 2rem;
 }
