@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 /*========= RESET  =====================*/
 * {
   margin: 0;
@@ -359,7 +357,8 @@ nav.show div.icon-close {
 .card .title {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
-=======
+}
+
 /*========= RESET  =====================*/
 * {
   margin: 0;
@@ -719,8 +718,8 @@ nav.show div.icon-close {
 .card .title {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
->>>>>>> 93c978519f64605cb4de965239534cd883d062d5
-=======
+}
+
 /*========= RESET  =====================*/
 * {
   margin: 0;
@@ -1080,5 +1079,4 @@ nav.show div.icon-close {
 .card .title {
   font-size: 1.5rem;
   margin-bottom: 0.75rem;
->>>>>>> 93c978519f64605cb4de965239534cd883d062d5
 }
